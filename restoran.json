@@ -1,0 +1,73 @@
+{
+  "response": {
+    "arrModifGrpResult": {
+      "idModifGrp": 1,
+      "nmModifGrp": "Kerupuk",
+      "arrModifOutlet": {
+        "idModifOutlet": "1",
+        "idOutlet": "1"
+      },
+      "arrModifProduct": [
+        {
+          "idModifProduct": "1",
+          "idProduct": "1"
+        },
+        {
+          "idModifProduct": "4",
+          "idProduct": "2"
+        }
+      ],
+      "arrModif": [
+        {
+          "idModif": "1",
+          "nmModif": "Kerupuk Bawang",
+          "priceModif": "1000"
+        },
+        {
+          "idModif": "2",
+          "nmModif": "Kerupuk Udang",
+          "priceModif": "2000"
+        },
+        {
+          "idModif": "3",
+          "nmModif": "Kerupuk Sambal",
+          "priceModif": "3000"
+        }
+      ]
+    },
+    "arrOutlet": {
+      "idOutlet": "1",
+      "nmOutlet": "Abra Warteg Bekasi"
+    },
+    "arrProduct": [
+      {
+        "idProduct": "1",
+        "idProductOutlet": "1",
+        "nmProduct": "Nasi Goreng",
+        "priceModif": "10.000"
+      },
+      {
+        "idProduct": "2",
+        "idProductOutlet": "1",
+        "nmProduct": "Nasi Campur",
+        "priceModif": "15.000"
+      }
+    ],
+    "idAccount": "1",
+    "token": "2d820eb4de58f6799d98a865ca206bae",
+    "Code": 200,
+    "Type": "Success",
+    "Message": "The request has succeeded",
+    "Description": "HTTP_OK",
+    "idModif": [
+      "Kerupuk Bawang",
+      "Kerupuk Udang",
+      "Kerupuk Sambal"
+    ],
+    "idOutlet": [
+      "1",
+      "2",
+      "3"
+    ]
+  }
+}
